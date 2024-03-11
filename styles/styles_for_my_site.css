@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-block {
+    background: url("../img/Background.jpg") no-repeat;
+    background-position: center bottom;
+
+}
+
+.main-text-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 234px;
+    padding-bottom: 248px;
+}
+
+.main-title {
+    color: #FF603D;
+    font-size: 83px;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.main-subtitle {
+    font-size: 27px;
+    font-family: Montserrat, sans-serif;
+    margin-top: 11px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.main-button {
+    border: 3px solid #FF603D;
+    border-radius: 20px;
+    padding: 27px 16px 27px 15px;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    margin-top: 28px;
+}
+
+.about-profession-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF603D;
+}
+
+.about-profession-title {
+    color: aliceblue;
+    margin-top: 72px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.img-and-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 47px;
+}
+
+.hero {
+    width: 310px;
+    height: 381px;
+    margin-bottom: 130px;
+
+}
+
+.profession-info {
+    margin-left: 89px;
+    max-width: 741px;
+}
+
+.info-about-profession {
+    color: aliceblue;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.why-you-should-choose-this-job {
+    display: flex;
+    flex-direction: column;
+    background: url("../img/Background (2).jpg") no-repeat;
+    background-position: center bottom;
+}
+
+.title {
+    font-family: Montserrat;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 388px;
+    margin-top: 114px;
+    margin-right: 776px;
+
+}
+
+.thats-why {
+    margin-left: 383px;
+    margin-top: 120px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 776px;
+}
+
+
+.fotter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    height: 396px;
+}
